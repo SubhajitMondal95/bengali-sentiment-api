@@ -1,0 +1,14 @@
+
+# Deep Learning
+torch==2.14.1
+
+# NLP and Model Loading
+transformers==5.20.2
+
+# API
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+pydantic==2.14.3
+
+# Numerical Computation
+scipy==1.15.3

@@ -1,0 +1,21 @@
+
+{
+    "model_name": "Subha95/bengali-sentiment-bert",
+    "base_model": "google-bert/bert-base-multilingual-cased",
+    "problem_type": "multi_label_classification",
+    "max_length": 128,
+    "labels": [
+        "Assertive",
+        "Happiness",
+        "Negative",
+        "Sadness",
+        "Question"
+    ],
+    "thresholds": {
+        "Assertive": 0.5,
+        "Happiness": 0.5,
+        "Negative": 0.5,
+        "Sadness": 0.5,
+        "Question": 0.5
+    }
+}

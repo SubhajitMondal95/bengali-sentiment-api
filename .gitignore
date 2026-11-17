@@ -1,0 +1,36 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+bengali_api/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Hugging Face and local model caches
+.cache/
+huggingface_cache/
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Log files
+*.log
+
+# macOS files
+.DS_Store
+
+# IDE settings
+.vscode/
